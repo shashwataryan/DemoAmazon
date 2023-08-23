@@ -1,7 +1,5 @@
 name: Cypress Artifacts
-on:  
-   schedule:
-    - cron: '16 16 * * *'
+on:  [push]
 jobs:
  cypress-run:
    runs-on: windows-latest
